@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+<head>
+    <title>Feed the Doggy!</title>
+    <script>
+        let counter = 0;
+
+        function incrementCounter() {
+            counter++;
+            document.getElementById('counterDisplay').innerText = counter;
+        }
+    </script>
+</head>
+<body>
+    <h1>Feed the Doggy</h1>
+    <p>Click the button to feed the doggy!</p>
+    <button onclick="incrementCounter()">Increase Counter</button>
+    <p>Doggy Health: <span id="counterDisplay">0</span></p>
+    <img src = <img src="https://banner2.cleanpng.com/20180718/uzc/kisspng-shiba-inu-dogecoin-iphone-6-iphone-4s-doge-png-5b4ed836a0e4e8.677457711531893814659.jpg" alt="Doge Dog"/>>
+</body>
+</html>
